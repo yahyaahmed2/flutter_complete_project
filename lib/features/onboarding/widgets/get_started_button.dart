@@ -17,19 +17,12 @@ class GetStartedButton extends StatelessWidget {
       style: ButtonStyle(
         backgroundColor: WidgetStateProperty.all(ColorsManager.mainBlue),
         tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-        minimumSize: WidgetStateProperty.all(
-          const Size(double.infinity, 52),
-        ),
+        minimumSize: WidgetStateProperty.all(const Size(double.infinity, 52)),
         shape: WidgetStateProperty.all(
-          RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(16),
-          ),
+          RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
         ),
       ),
-      child: Text(
-        'Get Started',
-        style: TextStyles.font16WhiteMedium,
-      ),
+      child: Text('Get Started', style: TextStyles.font16WhiteMedium),
     );
   }
 }
