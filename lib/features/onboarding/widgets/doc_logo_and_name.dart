@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_complete_project/core/theming/styles.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
+
+import '../../../core/theming/styles.dart';
 
 class DocLogoAndName extends StatelessWidget {
   const DocLogoAndName({super.key});
@@ -15,9 +16,9 @@ class DocLogoAndName extends StatelessWidget {
         SizedBox(width: 10.w),
         Text(
           'DocDoc',
-          style: TextStyles.fontSize24W700Black,
-        ), // Text
+          style: TextStyles.font24BlackBold,
+        ),
       ],
-    ); // Row
+    );
   }
 }
